@@ -11,11 +11,22 @@ a {
   color: #e5e7eb;
 }
 
-.header {
+.header,
+.footer {
   background-color: #1f2937;
   display: flex;
+}
+
+.header {
   justify-content: space-between;
   padding: 10px 200px;
+}
+
+.footer {
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #e5e7eb;
 }
 
 .header-logo {
