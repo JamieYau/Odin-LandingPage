@@ -153,8 +153,10 @@ button {
 
 .bottom .container {
   display: flex;
+  justify-content: center;
+  gap: 100px;
   background-color: #3882f6;
-  padding: 30px 80px;
+  padding: 30px 100px;
   border-radius: 5px;
   color: #e5e7eb;
   font-weight: bold;
@@ -162,6 +164,11 @@ button {
 
 .bottom p {
   font-weight: normal;
+}
+
+.bottom button {
+  border: 3px solid ;
+  padding: 6px;
 }
 
 
