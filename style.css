@@ -5,10 +5,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  text-decoration: none;
+a,
+.top p {
   font-size: 18px;
   color: #e5e7eb;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header,
@@ -33,7 +37,7 @@ a {
   color: #f9faf8;
   font-size: 24px;
   font-weight: bolder;
-  padding: 8px;
+  margin: 0;
 }
 
 .header-links {
@@ -41,4 +45,41 @@ a {
   justify-content: space-between;
   list-style: none;
   gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+.top {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 200px;
+}
+
+.top .container {
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  flex-grow: 0.1;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  margin: 0;
+}
+
+button {
+  background-color: #3882F6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 6px 25px;
+  border: 0;
+  margin: 10px 0;
+  width: 100px;
+  flex-grow: 0;
+}
+
+.top p {
+  margin: 0;
 }
