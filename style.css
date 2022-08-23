@@ -144,3 +144,9 @@ button {
   font-weight: bold;
   text-align: end;
 }
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
