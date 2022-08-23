@@ -118,9 +118,13 @@ button {
   border-radius: 10px;
 }
 
-.quote {
-  background-color: #e5e7eb;
-}
+.quote { 
+  background-color: #e5e7eb; 
+  padding: 100px 100px; 
+  display: flex; 
+  justify-content: center; 
+
+} 
 
 .quote-body {
   font-size: 36px;
