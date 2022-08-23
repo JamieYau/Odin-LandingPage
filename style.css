@@ -88,18 +88,18 @@ button {
   margin: 0;
 }
 
-.middle {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 50px;
-}
+.middle { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  padding: 100px 0; 
+} 
 
-.middle .title {
-  font-size: 36px;
-  font-weight: 900;
-  color: #1f2937;
-  padding: 30px;
+.middle .title { 
+  font-size: 36px; 
+  font-weight: 900; 
+  color: #1f2937; 
+  padding-bottom: 30px; 
 }
 
 .cards {
