@@ -154,6 +154,15 @@ button {
 .bottom .container {
   display: flex;
   background-color: #3882f6;
-  padding: 20px 80px;
+  padding: 30px 80px;
   border-radius: 5px;
+  color: #e5e7eb;
+  font-weight: bold;
 }
+
+.bottom p {
+  font-weight: normal;
+}
+
+
+
