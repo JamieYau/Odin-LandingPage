@@ -104,7 +104,10 @@ button {
 
 .cards {
   display: flex;
-  gap: 50px;
+  justify-content: center;
+  flex-flow: row wrap;
+  gap :100px;
+  flex-shrink: 1;
 }
 
 .card {
