@@ -5,6 +5,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+p {
+  margin:0;
+}
+
 a,
 .top p {
   font-size: 18px;
@@ -106,6 +110,7 @@ button {
 .card {
   width: 150px;
   flex-grow: 0;
+  text-align: center;
 }
 
 .card img {
