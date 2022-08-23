@@ -150,3 +150,10 @@ button {
   justify-content: center;
   padding: 100px;
 }
+
+.bottom .container {
+  display: flex;
+  background-color: #3882f6;
+  padding: 20px 80px;
+  border-radius: 5px;
+}
